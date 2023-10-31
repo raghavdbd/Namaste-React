@@ -1,0 +1,83 @@
+   --------------------------Igniting Our App ---------------------------------------------------------------------
+
+
+   Parcel(Bundler)
+
+   Create React App is using Webpack as a bundler but we are going to use a parcel bundler
+
+   There are lot of packages are required to make production ready App
+
+   NPm -> Npm is use to manage packages
+   package.json -? This file is configuration for npm
+
+   Bundler:
+   This manage all our html css and js file so that it can minification 
+   there are two type of dependencies
+   1. Normal dependencies: dependencies which are require in production 
+   2. Dev Dependencies :packages which are require only in devlopment phase we download them as a dev dependencies
+     1. (^)==creat this mean if there is update verson then it will automatically updated it(minor version)
+     2. (~)==tilde this mean if there is update verson then it will automatically updated it(major version)
+
+
+
+     package-lock.json :-  it kepp the record of exact version
+     node-modules :- contains all the code the we fetch from Npm
+
+     transitive Dependenct: see we have a dependency on parcel but pract also have some dependency on other package that is known as 
+     transitive dependency
+
+    we always put nodemodule in .gitignore
+    package and package.lock make maintain of the the dependency which we need with it wee can regenerate node module
+     
+     npx parcel index.html :- use  to build our App
+     npx:- npm execute
+
+
+   Cdn is not aprefer way to to bring react
+
+    insted use npm to install react
+-----------------------------------------------------------------------------------------------------------
+ parcel feature
+
+ Hot Module Replacement(HMR) -> changes update automatically
+creates Dev build
+creates Local Server
+file Watcher algorithm ->  
+Caching-faster builders  .parcel-cache
+Image optimization
+Minification or we can say that it will do bUndling
+consistent Hashing
+Code Spilliting
+Differential bUndling - support Older browsers
+Diagonastics
+parcel also give you a way to host your on https
+tree Shaking remove unused code for you
+
+------------------------------------------------------------------------------------------------------
+
+
+
+BrowSer-List
+go to browserlist.dev
+"browserlist:
+[
+    "Last two crome version"
+    "Last two 
+]
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+    What we have done in lacture 2
+    npm init
+    npm install -D parcel
+    npm install react
+    npm install -D react
+    npx parcel build index.html we don't reqire as Entry point 
+    import React from -react
+    Script type="module" src 
+
+
+
