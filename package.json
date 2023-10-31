@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/raghavdbd/Namaste-react)"
+    "url": "https://github.com/raghavdbd/Namaste-React"
   },
   "keywords": [
     "react",
@@ -17,7 +17,8 @@
   "author": "Raghav goya",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.1"
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
