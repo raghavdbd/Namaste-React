@@ -1,0 +1,32 @@
+CDN(Content Delivary Network)
+
+cross-origin: In a simple and easy way, "cross-origin" refers to interactions or requests between different web locations or origins.
+ An origin is defined by the combination of a protocol (like "http" or "https"), domain (like "example.com"), and port (like ":8080"). 
+ If a web page or script on one origin tries to access resources or data on a different origin, it's considered a "cross-origin" request.
+react.devlopemnt .js- core file of react
+react-dom-don't react for dom bridge between react and web-browsers
+
+React give a way to manipulate a dom with javascript
+
+At the End of Day React is javascript
+
+
+const heading=React.createElement("h1",{},"hellow")
+it take three parameters 
+1. type of heading
+2. An Empty Object in object we can pass id and class
+3. Content of h1
+
+props are Empty-object and id
+React Element is just a object at the End of the Day
+This the core of react
+
+
+
+
+
+
+
+
+
+
