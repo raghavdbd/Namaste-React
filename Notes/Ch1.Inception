@@ -15,12 +15,13 @@ const heading=React.createElement("h1",{},"hellow")
 it take three parameters 
 1. type of heading
 2. An Empty Object in object we can pass id and class
-3. Content of h1
+3. Content of h1 or we can say that childern of element
 
 props are Empty-object and id
 React Element is just a object at the End of the Day
 This the core of react
 
+React Element is an object but when we render it then it convert to html
 
 
 

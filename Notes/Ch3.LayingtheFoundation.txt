@@ -1,0 +1,80 @@
+ 
+ This are the Script to run and build the project 
+ "start":"parcel index.html",
+    "build":"parcel build index.html",
+
+    After this Script if you want to run the project 
+    npm run start  or npm start
+
+
+ -------------------------------------------------JSX-----------------------------------------------------------------
+
+
+ javascript XML is used to create react Element
+
+ jsx is not a part of React
+ cosnt jsxheading = <h1> Namaste React </h1>   
+
+
+ jsx code is transpiled before it go js engine
+
+ it a babel job who do tranpilation
+ this jsx code is tranpiled to react to create element 
+ babael job is to convert jsx code to react.create element
+ go to babel.js to know how things are working
+ --------------------------------------------------------------------------------------------------------------
+
+ in jsx if have to give class then we have to write className
+  cosnt jsxheading = <h1 className="namaste"> Namaste React </h1>   
+
+--------------------------------------------------------------------------------------------------------------
+  if we have to write jsx in multiple line then we have wrap up it in multile line
+  cosnt jsxheading = (<h1 className="namaste"> 
+  Namaste React 
+  </h1>)   
+  -----------------------------------------------------------------------------------------------------------
+React Components;
+Everything is component in React
+componet is just a simple javascript function which return jsx code
+
+there are two type of Components
+1. class Based Components  //old way to write components
+2. Functional Components  // latest way to write components
+
+React Functional Components
+Alaways name a functioal componet with capital letter
+
+syntax
+
+const Heading=()=>{
+   return <h1>sjkdnjsd </h1>
+}
+or
+
+const Heading=()=>(
+    <h1>sjkdnjsd </h1>
+)
+
+COmponent Composition=put one componet inside other Components
+const Heading2=()=>(
+   <div>
+   <Heading />
+    <h1>sjkdnjsd </h1>
+
+   </div>
+   
+)
+
+
+
+we can inject any javascript code inside this cuerly parenthesis{100+200}
+{} we can add one react componet i other react componet 
+
+Jsx also do sanitizatato it prevents cross site screpting attacks
+
+
+
+
+
+
+
