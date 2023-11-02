@@ -1,0 +1,37 @@
+
+Now from this lacture we going to build a food ordering app
+--------------------------------------------------------------------------------------------------
+
+Before writing any code or start working on any project first of all do planning
+
+step1.
+we design the Header an write some css code
+Props->props is known as property  it is something which we pass to the components
+they are just normal arguments to a function
+
+passing a prop to a component is just smae like a passing argument to afunction
+
+when we need to some data to a componenet we pass it as a prop
+
+Config-Driven-UI
+When Ui is MAnages by backend
+
+array.join(",")
+
+optional cahainaing
+Learn Map, filter Reduce
+
+--------------------------------------------------------------------------------------------------------------------
+
+Map
+{Restrurentlist.map((restaurent)=>(
+        <RestaurentCard resdata={restaurent} />
+
+       ))}
+
+       Restaurent List is array of object we are mapping on restaurent list ans passing each object to restaurent da
+
+Virtual Dom
+
+
+

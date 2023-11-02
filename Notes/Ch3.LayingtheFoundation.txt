@@ -68,7 +68,7 @@ const Heading2=()=>(
 
 
 we can inject any javascript code inside this cuerly parenthesis{100+200}
-{} we can add one react componet i other react componet 
+{} we can add one react componet index other react componet 
 
 Jsx also do sanitizatato it prevents cross site screpting attacks
 
