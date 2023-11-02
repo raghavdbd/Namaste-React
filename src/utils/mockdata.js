@@ -1,6 +1,3 @@
-import React from "react"
-import ReactDOM from "react-dom/client"
-
 const Restrurentlist=
 [
     {
@@ -705,74 +702,4 @@ const Restrurentlist=
         "subtype": "basic"
       }
 ]
-
-const Heading =()=>{
-    return(
-    <div className="container">
-
-<div classname="logo-container">
-    <img className="logo" src="https://logowik.com/content/uploads/images/restaurant9491.logowik.com.webp" alt="Logo" />
-
-</div>
-<div className="nav-item">
-<ul>
-    <li>Home</li>
-    <li>About</li>
-    <li>Contact</li>
-    <li>Cart</li>
-</ul>
-
-</div>
-    </div>
-    )
-
-}
-const RestaurentCard =(props)=>{
-   const{resdata}=props
-   console.log(resdata)
-
-    return(
-
-    <div className="restuurenCard">
-        <img className="res-logo" src="https://live.staticflickr.com/7348/13106562225_d06ed36047_b.jpg" alt="" />
-        <h2>{resdata.data.name}</h2>
-        <h3>{resdata.data.cuisines.join(",")}</h3>
-        <h4>4.3</h4>
-
-    </div>
-    )
-}
-const Body =()=>{
-return (
-    <div className="body-container">
-        <div className="Seach">
-            <input type="text" />
-            <input type="submit" name="" id="" />
-        </div>
-        <div className="food-card-container">
-       {Restrurentlist.map((restaurent)=>(
-        <RestaurentCard resdata={restaurent} />
-
-       ))}
-            
-            
-            
-            
-        </div>
-    </div>
-    
-)
-}
-const Applayout =()=>{
-return(
-<div className="layout">
-<Heading />
-<Body />
-</div>
-)
-
-}
-
-const root=ReactDOM.createRoot(document.getElementById("root"));
-
-root.render(Applayout());
+export default Restrurentlist

@@ -1,0 +1,69 @@
+Every thing that React can do we can do with Html css javascript
+
+--------------------------------------------------------------------------------------------------------------------
+
+There are two type of expots 
+1. named exports -> if we have export multiple thing from smae file then we use named export import tg  {name of file}
+2. default Export
+
+Never keep the hardcoded data in comonent file
+
+React Hooks -they are just normal javascript function
+
+
+Use State-> This Hook is used to creare react type of variable or we can say that state type of variable
+import UseState from react
+this is called state variable because it maintain the stae of your comonent
+const [nameofvariable,setname]=useState(whatever we pass here it will be the default value of variable)
+1.name of variable,
+2.function name to set the variable // this is used to modify the list 
+State type  variable help us to keep sync ui with data
+Whenever the State variable updated react variable rerender the components
+
+Diff ALgorithm
+
+React something use Reconcelation Alforith it is also Known as React Fiber(new Algorith it is away to updating thing)
+
+Dom -res container -> 15 res cards
+Virtual dom is representation of Actual Dom
+div
+ div
+   div thsi is actual dom
+
+
+   Diff Algorithm -this find differnece between two virtual Dom updated virtual dom and previous Virtual Dom
+
+
+
+// onclick(()={
+    this will take a call back function which will return the value
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------
+
+do code cleaning create seperate file for each component
