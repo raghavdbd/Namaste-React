@@ -1,0 +1,57 @@
+Monolith and microserviceArchitectur
+
+
+
+in monolith we have all the feature in same project 
+
+In microservice we have different service for each and small thingwe can say that 
+
+
+We will do to api call in this lacture
+
+
+1. pageLoad --> call the api --> Render the ui
+2. pageload -->rendertheui-->Apicall-->rerender the with data
+
+in React we will always follow 2 approach bcz this give you better Ux
+React have one of the best Render cycle
+
+Shimmer Ui
+
+---------------------------------------------------------------------------------Learn Ternary Operator
+
+
+
+----------------------------------------------------------------------------------------------------------------
+
+UseEffect Hooks
+
+use effet thake two arguments 
+1. Arrow funfction
+2.Dependency array
+
+in dependency we can write the certain condition when this useeffect will call if it a epmpty array then it
+will call after every call
+Syntax of Use Effect
+useEffect(()=>{
+
+},[]);
+
+UseEffect is use to call Api so we will fetch the inside th use Effect
+
+-------------------------------------------------------------------------------------Learn ASync Await
+
+
+useState
+
+Implement Search BAr
+onChang={(e)=>{
+    setsearchtetx(e.target.)
+}}
+
+we have create state variable name search txt which will take input after getting input we filter out the data on the basis of search and te then sending the data restaurent list
+
+
+
+
+

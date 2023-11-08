@@ -1,5 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
+import { img_url } from "../utils/url"
 const Restrurentlist=
 [
     {
@@ -711,10 +712,11 @@ const RestaurentCard =(props)=>{
      return(
  
      <div className="restuurenCard">
-         <img className="res-logo" src="https://live.staticflickr.com/7348/13106562225_d06ed36047_b.jpg" alt="" />
-         <h2>{resdata.data.name}</h2>
-         <h3>{resdata.data.cuisines.join(",")}</h3>
-         <h4>4.3</h4>
+         <img className="res-logo" src= {img_url+ resdata?.info?.cloudinaryImageId }alt="" />
+         <h2>{resdata?.info?.name}</h2>
+         <h3 >{resdata?.info?.cuisines?.join(",")}</h3>
+         <h4>{resdata?.info?.avgRating}</h4>
+         <h4>{resdata?.info?.costForTwo}</h4>
  
      </div>
      )

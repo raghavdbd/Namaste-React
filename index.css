@@ -22,7 +22,9 @@
     margin: 2px;
     padding: 4px;
     width: 220px;
+    
     border: 1px solid black;
+   
 }
 .food-card-container{
     display: flex;
